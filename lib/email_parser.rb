@@ -12,9 +12,16 @@ class EmailParser
   @@emals = []
   
   def parse
-    @email.split(/[, ]/)
-    
-    
+   array = @email.split(/[, ]/)
+   final_array = []
+   array.each do |element|
+     if element == ""
+       delete element
+      else
+        final_array << element
+     end
+   end 
+
   end
     
   
