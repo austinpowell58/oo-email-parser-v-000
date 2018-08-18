@@ -15,7 +15,7 @@ class EmailParser
     @email.split(/[, ]/)
     
     
-  end.
+  end
     
   
   
