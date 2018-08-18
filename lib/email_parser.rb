@@ -16,7 +16,7 @@ class EmailParser
    final_array = []
    array.each do |element|
      if element == ""
-       delete element
+  
       else
         final_array << element
      end
