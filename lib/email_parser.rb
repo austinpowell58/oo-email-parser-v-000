@@ -21,7 +21,7 @@ class EmailParser
         final_array << element
      end
    end 
-
+   final_array.uniq
   end
     
   
