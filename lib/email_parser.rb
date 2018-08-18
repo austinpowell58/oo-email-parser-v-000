@@ -5,6 +5,12 @@
 class EmailParser
   attr_accessor :email
   
+  def initialize(string)
+    @email = string
+  end 
+  
+  @@emals = []
+  
   def self.parse 
     
   end 
