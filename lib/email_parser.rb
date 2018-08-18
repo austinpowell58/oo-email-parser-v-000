@@ -11,7 +11,8 @@ class EmailParser
   
   @@emals = []
   
-  def parse 
+  def parse
+    self.split(/[, ]/)
     
     
   end 
